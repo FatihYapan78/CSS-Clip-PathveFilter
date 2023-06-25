@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* initial : HTML elementi varsayılan biçimlendirme değerine döner. (ilk)
+           inherit : HTML elementi üst elementinin biçimlendirme değerini alır. (Miras) */
+           div#bir{
+            width: 200px;
+            height: 200px;
+            border: 2px solid red;
+           }
+           div#iki{
+            width: 200px;
+            height: inherit;
+            border: 2px solid blue;
+           }
+           /*div{
+            border: initial;
+           }*/
+    </style>
+</head>
+<body>
+    <div id="bir">
+        <div id="iki">Fatih Yapan</div>
+    </div>
+</body>
+</html>
